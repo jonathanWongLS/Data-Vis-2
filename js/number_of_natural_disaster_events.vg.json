@@ -1,0 +1,113 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 600,
+    "title": "Number of Natural Disaster Events Globally per Year",
+    "data": {
+        "url": "../data/Number_of_Natural_Disaster_Events.csv"
+    },
+    "params": [
+        {
+            "name": "Year_selection",
+            "value": 1900,
+            "bind": {
+                "input": "range",
+                "min": 1900,
+                "max": 2019,
+                "step": 1,
+                "name": "Choose a Year: "
+            }
+        },
+        {
+            "name": "Disaster_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Drought",
+                    "Extreme temperature",
+                    "Flood",
+                    "Wildfire"
+                ],
+                "labels": [
+                    "Show All",
+                    "Drought",
+                    "Extreme temperature",
+                    "Flood",
+                    "Wildfire"
+                ],
+                "name": "Choose a Natural Disaster: "
+            }
+        }
+    ],
+    "transform": [
+        {
+                "filter": {
+                "timeUnit": "year",
+                "field": "Year",
+                "gte": "Year_selection"
+            }
+        },
+        {
+            "filter": "Disaster_selection == null || datum.Entity == Disaster_selection"
+        }
+    ],
+    "selection": {
+        "disaster_selection": {
+            "type": "multi",
+            "fields": ["Entity"],
+            "bind": "legend"
+        }
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "aggregate": "sum",
+            "field": "Number of disasters"
+        },
+        "y": {
+            "timeUnit": "year",
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+        },
+        "color": {
+            "field": "Entity",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Drought",
+                    "Extreme temperature",
+                    "Flood",
+                    "Wildfire"
+                ],
+                "range": [
+                    "#fdc086",
+                    "#a6cee3",
+                    "#1f78b4",
+                    "#fb9a99"
+                ]
+            }
+        },
+        "opacity": {
+            "condition": {
+                "param": "disaster_selection", "value": 1.0
+            },
+            "value": 0.1
+        },
+        "tooltip": [
+            {
+                "field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"
+            },
+            {
+                "field": "Entity", "type": "nominal", "title": "Type of Disaster"
+            },
+            {
+                "field": "Number of disasters", "type": "quantitative", "title": "Total Number of Occurences"
+            }
+        ]
+    },
+    "config": {
+        "background":"antiquewhite"
+    }
+}

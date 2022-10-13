@@ -1,0 +1,292 @@
+,index,Entity,Year,Number of disasters
+0,120,Drought,1900,2
+1,121,Drought,1903,1
+2,122,Drought,1906,1
+3,123,Drought,1910,9
+4,124,Drought,1919,1
+5,125,Drought,1920,2
+6,126,Drought,1921,1
+7,127,Drought,1928,1
+8,128,Drought,1931,1
+9,129,Drought,1933,1
+10,130,Drought,1940,9
+11,131,Drought,1942,1
+12,132,Drought,1943,1
+13,133,Drought,1946,1
+14,134,Drought,1947,1
+15,135,Drought,1960,1
+16,136,Drought,1961,1
+17,137,Drought,1963,1
+18,138,Drought,1964,7
+19,139,Drought,1965,7
+20,140,Drought,1966,9
+21,141,Drought,1967,5
+22,142,Drought,1968,7
+23,143,Drought,1969,10
+24,144,Drought,1970,2
+25,145,Drought,1971,7
+26,146,Drought,1972,7
+27,147,Drought,1973,2
+28,148,Drought,1974,4
+29,149,Drought,1975,1
+30,150,Drought,1976,6
+31,151,Drought,1977,16
+32,152,Drought,1978,9
+33,153,Drought,1979,11
+34,154,Drought,1980,14
+35,155,Drought,1981,13
+36,156,Drought,1982,13
+37,157,Drought,1983,32
+38,158,Drought,1984,8
+39,159,Drought,1985,3
+40,160,Drought,1986,4
+41,161,Drought,1987,15
+42,162,Drought,1988,17
+43,163,Drought,1989,7
+44,164,Drought,1990,12
+45,165,Drought,1991,18
+46,166,Drought,1992,12
+47,167,Drought,1993,9
+48,168,Drought,1994,13
+49,169,Drought,1995,6
+50,170,Drought,1996,6
+51,171,Drought,1997,18
+52,172,Drought,1998,20
+53,173,Drought,1999,23
+54,174,Drought,2000,27
+55,175,Drought,2001,22
+56,176,Drought,2002,25
+57,177,Drought,2003,14
+58,178,Drought,2004,11
+59,179,Drought,2005,20
+60,180,Drought,2006,9
+61,181,Drought,2007,11
+62,182,Drought,2008,16
+63,183,Drought,2009,18
+64,184,Drought,2010,17
+65,185,Drought,2011,17
+66,186,Drought,2012,21
+67,187,Drought,2013,9
+68,188,Drought,2014,18
+69,189,Drought,2015,28
+70,190,Drought,2016,15
+71,191,Drought,2017,7
+72,192,Drought,2018,13
+73,193,Drought,2019,15
+74,310,Extreme temperature,1936,2
+75,311,Extreme temperature,1951,2
+76,312,Extreme temperature,1953,3
+77,313,Extreme temperature,1955,1
+78,314,Extreme temperature,1958,2
+79,315,Extreme temperature,1961,1
+80,316,Extreme temperature,1962,1
+81,317,Extreme temperature,1963,2
+82,318,Extreme temperature,1965,1
+83,319,Extreme temperature,1966,2
+84,320,Extreme temperature,1968,2
+85,321,Extreme temperature,1971,1
+86,322,Extreme temperature,1972,2
+87,323,Extreme temperature,1973,3
+88,324,Extreme temperature,1975,3
+89,325,Extreme temperature,1977,1
+90,326,Extreme temperature,1978,1
+91,327,Extreme temperature,1979,4
+92,328,Extreme temperature,1980,3
+93,329,Extreme temperature,1981,2
+94,330,Extreme temperature,1982,3
+95,331,Extreme temperature,1983,2
+96,332,Extreme temperature,1984,1
+97,333,Extreme temperature,1985,8
+98,334,Extreme temperature,1986,2
+99,335,Extreme temperature,1987,6
+100,336,Extreme temperature,1988,6
+101,337,Extreme temperature,1989,5
+102,338,Extreme temperature,1990,13
+103,339,Extreme temperature,1991,8
+104,340,Extreme temperature,1992,7
+105,341,Extreme temperature,1993,4
+106,342,Extreme temperature,1994,9
+107,343,Extreme temperature,1995,13
+108,344,Extreme temperature,1996,5
+109,345,Extreme temperature,1997,13
+110,346,Extreme temperature,1998,12
+111,347,Extreme temperature,1999,8
+112,348,Extreme temperature,2000,31
+113,349,Extreme temperature,2001,23
+114,350,Extreme temperature,2002,15
+115,351,Extreme temperature,2003,25
+116,352,Extreme temperature,2004,16
+117,353,Extreme temperature,2005,30
+118,354,Extreme temperature,2006,24
+119,355,Extreme temperature,2007,25
+120,356,Extreme temperature,2008,10
+121,357,Extreme temperature,2009,25
+122,358,Extreme temperature,2010,29
+123,359,Extreme temperature,2011,16
+124,360,Extreme temperature,2012,51
+125,361,Extreme temperature,2013,14
+126,362,Extreme temperature,2014,17
+127,363,Extreme temperature,2015,12
+128,364,Extreme temperature,2016,12
+129,365,Extreme temperature,2017,11
+130,366,Extreme temperature,2018,25
+131,367,Extreme temperature,2019,20
+132,484,Flood,1900,1
+133,485,Flood,1903,2
+134,486,Flood,1906,2
+135,487,Flood,1909,1
+136,488,Flood,1910,1
+137,489,Flood,1911,1
+138,490,Flood,1915,1
+139,491,Flood,1917,1
+140,492,Flood,1920,1
+141,493,Flood,1925,1
+142,494,Flood,1926,4
+143,495,Flood,1927,2
+144,496,Flood,1928,2
+145,497,Flood,1930,1
+146,498,Flood,1931,1
+147,499,Flood,1933,2
+148,500,Flood,1935,1
+149,501,Flood,1936,1
+150,502,Flood,1937,2
+151,503,Flood,1938,2
+152,504,Flood,1939,2
+153,505,Flood,1940,1
+154,506,Flood,1943,2
+155,507,Flood,1947,1
+156,508,Flood,1948,5
+157,509,Flood,1949,2
+158,510,Flood,1950,10
+159,511,Flood,1951,7
+160,512,Flood,1952,4
+161,513,Flood,1953,12
+162,514,Flood,1954,9
+163,515,Flood,1955,3
+164,516,Flood,1956,9
+165,517,Flood,1957,11
+166,518,Flood,1958,3
+167,519,Flood,1959,13
+168,520,Flood,1960,7
+169,521,Flood,1961,8
+170,522,Flood,1962,8
+171,523,Flood,1963,8
+172,524,Flood,1964,22
+173,525,Flood,1965,19
+174,526,Flood,1966,23
+175,527,Flood,1967,26
+176,528,Flood,1968,20
+177,529,Flood,1969,14
+178,530,Flood,1970,31
+179,531,Flood,1971,15
+180,532,Flood,1972,15
+181,533,Flood,1973,20
+182,534,Flood,1974,19
+183,535,Flood,1975,17
+184,536,Flood,1976,17
+185,537,Flood,1977,48
+186,538,Flood,1978,47
+187,539,Flood,1979,34
+188,540,Flood,1980,39
+189,541,Flood,1981,43
+190,542,Flood,1982,48
+191,543,Flood,1983,49
+192,544,Flood,1984,47
+193,545,Flood,1985,58
+194,546,Flood,1986,50
+195,547,Flood,1987,68
+196,548,Flood,1988,76
+197,549,Flood,1989,46
+198,550,Flood,1990,60
+199,551,Flood,1991,77
+200,552,Flood,1992,59
+201,553,Flood,1993,84
+202,554,Flood,1994,88
+203,555,Flood,1995,94
+204,556,Flood,1996,92
+205,557,Flood,1997,95
+206,558,Flood,1998,94
+207,559,Flood,1999,122
+208,560,Flood,2000,157
+209,561,Flood,2001,157
+210,562,Flood,2002,172
+211,563,Flood,2003,158
+212,564,Flood,2004,128
+213,565,Flood,2005,193
+214,566,Flood,2006,226
+215,567,Flood,2007,218
+216,568,Flood,2008,165
+217,569,Flood,2009,151
+218,570,Flood,2010,184
+219,571,Flood,2011,156
+220,572,Flood,2012,136
+221,573,Flood,2013,149
+222,574,Flood,2014,135
+223,575,Flood,2015,160
+224,576,Flood,2016,161
+225,577,Flood,2017,114
+226,578,Flood,2018,109
+227,579,Flood,2019,170
+228,774,Wildfire,1911,1
+229,775,Wildfire,1918,1
+230,776,Wildfire,1922,1
+231,777,Wildfire,1929,1
+232,778,Wildfire,1939,1
+233,779,Wildfire,1944,2
+234,780,Wildfire,1947,1
+235,781,Wildfire,1949,1
+236,782,Wildfire,1956,1
+237,783,Wildfire,1965,1
+238,784,Wildfire,1966,1
+239,785,Wildfire,1967,2
+240,786,Wildfire,1968,3
+241,787,Wildfire,1969,2
+242,788,Wildfire,1970,3
+243,789,Wildfire,1971,2
+244,790,Wildfire,1972,3
+245,791,Wildfire,1973,3
+246,792,Wildfire,1974,3
+247,793,Wildfire,1975,2
+248,794,Wildfire,1976,1
+249,795,Wildfire,1977,2
+250,796,Wildfire,1978,3
+251,797,Wildfire,1979,4
+252,798,Wildfire,1980,4
+253,799,Wildfire,1981,4
+254,800,Wildfire,1982,3
+255,801,Wildfire,1983,12
+256,802,Wildfire,1984,7
+257,803,Wildfire,1985,13
+258,804,Wildfire,1986,6
+259,805,Wildfire,1987,8
+260,806,Wildfire,1989,3
+261,807,Wildfire,1990,4
+262,808,Wildfire,1991,8
+263,809,Wildfire,1992,8
+264,810,Wildfire,1993,2
+265,811,Wildfire,1994,13
+266,812,Wildfire,1995,7
+267,813,Wildfire,1996,5
+268,814,Wildfire,1997,16
+269,815,Wildfire,1998,18
+270,816,Wildfire,1999,22
+271,817,Wildfire,2000,30
+272,818,Wildfire,2001,14
+273,819,Wildfire,2002,22
+274,820,Wildfire,2003,14
+275,821,Wildfire,2004,8
+276,822,Wildfire,2005,13
+277,823,Wildfire,2006,9
+278,824,Wildfire,2007,18
+279,825,Wildfire,2008,5
+280,826,Wildfire,2009,9
+281,827,Wildfire,2010,7
+282,828,Wildfire,2011,8
+283,829,Wildfire,2012,6
+284,830,Wildfire,2013,10
+285,831,Wildfire,2014,4
+286,832,Wildfire,2015,12
+287,833,Wildfire,2016,10
+288,834,Wildfire,2017,13
+289,835,Wildfire,2018,10
+290,836,Wildfire,2019,13

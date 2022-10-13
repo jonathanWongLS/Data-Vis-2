@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="js/global_air_pollution.vg.json"></script>
+    <script src="js/mismanaged_plastic_waste.vg.json"></script>
+    <script src="js/change_in_mean_sea_levels.vg.json"></script>
+
+    <script src="DataVis2.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Data Visualisation 2</title>
+  </head>
+  
+  <body style="background-color:antiquewhite">
+
+    <div class="header">
+      <h1>Mother Earth Is In Danger</h1>
+      <p>-  A Data Visualisation by Jonathan Wong  - </p>
+    </div>
+
+    <div class="page">
+      <br><br>
+      <!-- pure grid group -->
+      <div class="pure-g vis-desc-container">
+        <div class="pure-u-1-3">
+          <div class="description description-left">
+            <h1>Air Pollution on Health</h1>
+            <p>
+              According to the <b>United States Environmental Protection Agency (EPA)</b>, emissions of pollutants into the air can result in changes to the climate.
+              Different components of particulate matter (e.g PM2.5) can have either warming or cooling effects on the climate.
+              <br><br>
+              <b>PM2.5</b> are tiny particles in the air that reduce visibility and cause the air to appear hazy when levels are elevated. 
+              Particles in the PM2.5 size range are able to travel deeply into the respiratory tract. Exposure to fine particles can cause short-term health effects such as: 
+              <ul>
+                <li>Eye, Nose, Throat and Lung Irritation</li> 
+                <li>coughing</li> 
+                <li>sneezing</li> 
+                <li>runny nose</li> 
+                <li>shortness of breath</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-2-3">
+          <div class="vis-container">
+            <div id="vis1"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+      
+      <br><br>
+      <!-- pure grid group -->
+      <div class="pure-g vis-desc-container">
+        <div class="pure-u-1-3">
+          <div class="description description-left">
+            <h1>Mismanaged Plastic Waste</h1>
+            <p>
+              Mass production of plastics, which began just six decades ago, has accelerated so rapidly that it has created 8.3 million metric tons.
+              <b>National Geographic</b> states that 6.3 billion metric tons out of the 8.3 billion metric tons of plastic created, only 9% has become plastic waste.
+              The vast majority (79%) is accumulating in landfills or sloughing off in the natural environment as litter.
+              <br><br>
+              In the year 2010, <b>China and Indonesia</b> have the <b>highest amount of mismanaged plastic waste</b> among the other countries. However, China has a massive difference in the amount of mismanaged plastic waste compared to that of Indonesia, with about 5 billion metric tons in difference. 
+            </p>
+          </div>
+        </div>
+        <div class="pure-u-2-3">
+          <div class="vis-container">
+            <div id="vis2"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+
+      <br><br>
+      <!-- pure grid group -->
+      <div class="pure-g vis-desc-container">
+        <div class="pure-u-1-3">
+          <div class="description description-left">
+            <h1>Multiple Visualisations</h1>
+            <p>This page</p>
+          </div>
+        </div>
+        <div class="pure-u-2-3">
+          <div class="vis-container">
+            <div id="vis3"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+
+      <br><br>
+      <!-- pure grid group -->
+      <div class="pure-g vis-desc-container">
+        <div class="pure-u-1-3">
+          <div class="description description-left">
+            <h1>Multiple Visualisations</h1>
+            <p>This page</p>
+          </div>
+        </div>
+        <div class="pure-u-2-3">
+          <div class="vis-container">
+            <div id="vis4"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+
+    </div>
+    
+    
+  </body>
+</html>

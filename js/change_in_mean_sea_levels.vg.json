@@ -1,0 +1,93 @@
+{
+    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": "Average Change in Mean Sea Levels per Year (2015 - 2020)",
+    "data" : {
+        "url": "../data/Change_in_Mean_Sea_Levels_Filtered.csv"
+    },
+    "layer": [
+        {
+            "selection": {
+                "sea_highlight": {
+                    "type": "multi",
+                    "fields": [
+                        "Name of Sea"
+                    ],
+                    "bind": "legend"
+                }
+            },
+            "mark":"line",
+            "encoding": {
+                "x":{
+                    "field": "Year",
+                    "type": "temporal",
+                    "title": "Year"
+                },
+                "y":{
+                    "field": "Value",
+                    "type": "quantitative",
+                    "title": "Change in Mean Sea Level (mm)"
+                },
+                "color": {
+                    "field": "Name of Sea",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year", "type": "temporal", "timeUnit": "year"
+                    },
+                    {
+                        "field": "Value", "type": "quantitative", "title": "Change in Mean Sea Levels (mm)", "format": ".2f"
+                    },
+                    {
+                        "field": "Name of Sea", "type": "nominal"
+                    }
+                ],
+                "opacity": {
+                    "condition": {
+                        "selection": "sea_highlight",
+                        "value": 0.6
+                    },
+                    "value": 0.2
+                }
+            }
+        },
+        {
+            "mark":"point",
+            "encoding": {
+                "x":{
+                    "field": "Year",
+                    "type": "temporal",
+                    "title": "Year"
+                },
+                "y":{
+                    "field": "Value",
+                    "type": "quantitative",
+                    "title": "Change in Mean Sea Level (mm)"
+                },
+                "color": {
+                    "field": "Name of Sea",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year", "type": "temporal", "timeUnit": "year"
+                    },
+                    {
+                        "field": "Value", "type": "quantitative", "title": "Change in Mean Sea Levels (mm)", "format": ".2f"
+                    },
+                    {
+                        "field": "Name of Sea", "type": "nominal"
+                    }
+                ],
+                "opacity": {
+                    "value": 0.6
+                }
+            }
+        }
+    ],
+    "config": {
+        "background":"antiquewhite"
+    }
+}
