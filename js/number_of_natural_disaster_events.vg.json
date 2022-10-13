@@ -4,7 +4,7 @@
     "height": 600,
     "title": "Number of Natural Disaster Events Globally per Year",
     "data": {
-        "url": "../data/Number_of_Natural_Disaster_Events.csv"
+        "url": "data/Number_of_Natural_Disaster_Events.csv"
     },
     "params": [
         {
