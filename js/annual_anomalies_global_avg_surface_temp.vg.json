@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Annual Anomalies of Global Average Surface Temperature (°C)",
+    "description": "Global anomalies are with respect to the 1991-2020 average",
+    "width": 900,
+    "height": 750,
+    "data": {
+        "url": "data/annual_anomalies_global_avg_surface_temp.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Year", "type": "temporal", "timeUnit": "year",
+            "axis": {
+                "domain": false,
+                "ticks": false,
+                "labelAngle": 0,
+                "labelPadding": 4
+            }
+        },
+        "y": {
+            "field": "Global", "type": "quantitative",
+            "axis": {
+                "gridColor": {
+                    "condition": {"test":"datum.Global === 0", "value": "black"},
+                    "value": "#ddd"
+                }
+            }
+        },
+        "color": { 
+            "field": "Global",
+            "type": "quantitative",
+            "scale": {
+                "range":"diverging",
+                "domainMid": 0,
+                "reverse":true
+            } 
+        },
+        "tooltip" : [
+            { "field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+            { "field" : "Global", "type": "quantitative", "title": "Global Average Anomaly Temperature"}
+        ]
+    },
+    "config": {
+        "background": "antiquewhite"
+    }
+}

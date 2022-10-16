@@ -15,7 +15,7 @@
                 "min": 1922,
                 "max": 2019,
                 "step": 1,
-                "name": "Choose a Year: "
+                "name": "From Year: "
             }
         },
         {
