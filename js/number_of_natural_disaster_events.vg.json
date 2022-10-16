@@ -1,18 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
-    "height": 600,
-    "title": "Number of Natural Disaster Events Globally per Year",
+    "height": 750,
+    "title": "Number of Natural Disaster Events Globally per Year (1922 - 2022)",
     "data": {
         "url": "data/Number_of_Natural_Disaster_Events.csv"
     },
     "params": [
         {
             "name": "Year_selection",
-            "value": 1900,
+            "value": 1922,
             "bind": {
                 "input": "range",
-                "min": 1900,
+                "min": 1922,
                 "max": 2019,
                 "step": 1,
                 "name": "Choose a Year: "
