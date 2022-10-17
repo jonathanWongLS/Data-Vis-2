@@ -15,9 +15,9 @@ h1 {
 }
 
 .page {
-    width: 1250px;
+
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     padding-top: 35px;
 }
 
@@ -31,4 +31,15 @@ h1 {
 
 .small-font {
     font-size: 14px;
+}
+
+.description {
+    padding: 10%;
+}
+
+.vis-title {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }

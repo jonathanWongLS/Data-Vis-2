@@ -1,6 +1,6 @@
 {
     "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
+    "width": 970,
     "height": 400,
     "title": "Average Change in Mean Sea Levels per Year (2015 - 2020)",
     "data" : {

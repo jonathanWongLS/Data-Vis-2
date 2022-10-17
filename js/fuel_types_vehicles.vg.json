@@ -1,7 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 900,
-    "height": 750,
     "title": "Global Number of Vehicles by Fuel Type",
     "data": {
         "url": "data/VehiclesAndFuelTypeVehicleType_Filtered.csv"
@@ -29,8 +27,8 @@
     ],
     "vconcat": [
         {
-            "width": 1310,
-            "height": 600,
+            "width": 1000,
+            "height": 300,
             "mark": "bar",
             "encoding": {
                 "x": {
@@ -76,8 +74,10 @@
             "hconcat": [
                 {
                     "title":"2015",
+                    "width":150,
+                    "height":150,
                     "mark": {
-                        "type": "arc", "innerRadius": 50
+                        "type": "arc", "innerRadius": 30
                     },
                     "transform": [
                         {
@@ -98,42 +98,46 @@
                         },
                         "tooltip" : [
                             {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
+                        ]
+                    }
+                },
+                {
+                    "title":"2016",
+                    "width":150,
+                    "height":150,
+                    "mark": {
+                        "type": "arc", "innerRadius": 30
+                    },
+                    "transform": [
+                        {
+                            "filter": {
+                                "field": "Year",
+                                "equal": "2016"
+                            }
+                        }
+                    ],
+                    "encoding": {
+                        "theta": {
+                            "field": "perc",
+                            "type": "quantitative"
+                        },
+                        "color":{
+                            "field": "Fuel Type",
+                            "type": "nominal"
+                        },
+                        "tooltip" : [
+                            {"field": "Fuel Type", "type": "nominal"},
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
                         ]
                     }
                 },
                 {
                     "title":"2017",
+                    "width":150,
+                    "height":150,
                     "mark": {
-                        "type": "arc", "innerRadius": 50
-                    },
-                    "transform": [
-                        {
-                            "filter": {
-                                "field": "Year",
-                                "equal": "2016"
-                            }
-                        }
-                    ],
-                    "encoding": {
-                        "theta": {
-                            "field": "perc",
-                            "type": "quantitative"
-                        },
-                        "color":{
-                            "field": "Fuel Type",
-                            "type": "nominal"
-                        },
-                        "tooltip" : [
-                            {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
-                        ]
-                    }
-                },
-                {
-                    "title":"2018",
-                    "mark": {
-                        "type": "arc", "innerRadius": 50
+                        "type": "arc", "innerRadius": 30
                     },
                     "transform": [
                         {
@@ -154,14 +158,16 @@
                         },
                         "tooltip" : [
                             {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
                         ]
                     }
                 },
                 {
-                    "title":"2019",
+                    "title":"2018",
+                    "width":150,
+                    "height":150,
                     "mark": {
-                        "type": "arc", "innerRadius": 50
+                        "type": "arc", "innerRadius": 30
                     },
                     "transform": [
                         {
@@ -182,14 +188,16 @@
                         },
                         "tooltip" : [
                             {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
                         ]
                     }
                 },
                 {
-                    "title":"2020",
+                    "title":"2019",
+                    "width":150,
+                    "height":150,
                     "mark": {
-                        "type": "arc", "innerRadius": 50
+                        "type": "arc", "innerRadius": 30
                     },
                     "transform": [
                         {
@@ -210,14 +218,16 @@
                         },
                         "tooltip" : [
                             {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
                         ]   
                     }
                 },
                 {
-                    "title":"2015",
+                    "title":"2020",
+                    "width":150,
+                    "height":150,
                     "mark": {
-                        "type": "arc", "innerRadius": 50
+                        "type": "arc", "innerRadius": 30
                     },
                     "transform": [
                         {
@@ -238,7 +248,7 @@
                         },
                         "tooltip" : [
                             {"field": "Fuel Type", "type": "nominal"},
-                            {"field": "Number of Vehicles", "type": "quantitative"}
+                            {"field": "perc", "type": "quantitative", "format":".2f", "title": "Total Percentage of Year (%)"}
                         ]   
                     }
                 }

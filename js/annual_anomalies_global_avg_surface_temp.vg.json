@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Annual Anomalies of Global Average Surface Temperature (°C)",
     "description": "Global anomalies are with respect to the 1991-2020 average",
-    "width": 900,
-    "height": 750,
+    "width": 1000,
+    "height":400,
     "data": {
         "url": "../data/annual_anomalies_global_avg_surface_temp.csv"
     },
