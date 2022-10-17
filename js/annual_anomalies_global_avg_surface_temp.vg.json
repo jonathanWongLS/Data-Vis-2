@@ -5,8 +5,28 @@
     "width": 900,
     "height": 750,
     "data": {
-        "url": "data/annual_anomalies_global_avg_surface_temp.csv"
+        "url": "../data/annual_anomalies_global_avg_surface_temp.csv"
     },
+    "params": [
+        {
+            "name": "Year_selection",
+            "value": 1922,
+            "bind": {
+            "input": "range",
+            "min": 1922,
+            "max": 2021,
+            "step": 1,
+            "name": "From Year: "
+            }
+        }
+    ],
+    "transform": [{
+            "filter": {
+            "field": "Year",
+            "timeUnit":"year",
+            "gte": "Year_selection"
+        }
+    }],
     "mark": "bar",
     "encoding": {
         "x": {
