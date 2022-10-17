@@ -10,6 +10,14 @@
     "projection": {"type": "equalEarth"},
     "layer": [
       {
+        "data":{
+            "url":
+            "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+            "format": {"type":"topojson","feature":"oceans"}
+          },
+          "mark":{"type":"geoshape", "fill": "#91bfdb"}
+      },
+      {
         "transform": [
           {
             "calculate": "'Data is not available for ' + datum.properties.NAME",
